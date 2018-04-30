@@ -1,0 +1,49 @@
+
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+/* empty checkbox */
+#unchecked {
+	background: url('imgs/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+#checked {
+	background: url('imgs/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+#radio-section{
+  display: inline;
+}
+
+#radio-off {
+	background: url('imgs/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+/* checked circle */
+#radio-on {
+	background: url('imgs/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
+up arrow
+.sprite {
+	background: url('imgs/form-elements-sprite.png') no-repeat -1035px -280px;
+	width: 77px;
+	height: 77px;
+}
+down arrow
+.sprite {
+	background: url('imgs/form-elements-sprite.png') no-repeat -1143px -280px;
+	width: 76px;
+	height: 77px;
+}
